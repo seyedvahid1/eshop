@@ -3,10 +3,47 @@
     margin: 10px auto;
 }
 
+.flex {
+    display: flex;
+}
+
 
 /* header */
 
 .header {
     background-color: #232f3e;
     border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+
+.header a {
+    color: #bcbdc7;
+    transition: all 0.3s linear;
+}
+
+.topinfo {
+    border-bottom: 1px solid #303e4f;
+    justify-content: space-between;
+}
+
+.flag-icon {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.accountlink {
+    padding: 5px 15px;
+    display: block;
+}
+
+.accountlink:hover {
+    color: #fff;
+}
+
+.accountlink>i {
+    padding-left: 4px;
+}
+
+.languages {
+    margin: 5px 0 0 10px;
 }
