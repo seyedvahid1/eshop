@@ -46,6 +46,7 @@
 
 .header_info {
     padding: 20px;
+    border-bottom: 1px solid #303e4f;
 }
 
 .searchbox {
@@ -92,4 +93,57 @@
 .carticon {
     background-color: #f4a137;
     padding: 5px;
+}
+
+.topnav {
+    position: relative;
+}
+
+.topnavlink {
+    display: block;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.topnavlink:hover {
+    color: #fff;
+}
+
+.submenu {
+    position: absolute;
+    background-color: #fff;
+    height: 300px;
+    width: 100%;
+    display: none;
+    top: 100%;
+    right: 0;
+}
+
+.topnavitem:hover .submenu {
+    display: block;
+}
+
+.submenucontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.submenulist {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: flex-start;
+}
+
+.submenuimage {
+    position: absolute;
+    width: 300px;
+    left: 0;
+    bottom: 0;
+}
+
+.submenulistitem {
+    color: black;
+    width: 25%;
 }
