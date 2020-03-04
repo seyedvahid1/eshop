@@ -3,10 +3,6 @@
     margin: 10px auto;
 }
 
-.flex {
-    display: flex;
-}
-
 
 /* header */
 
@@ -46,4 +42,54 @@
 
 .languages {
     margin: 5px 0 0 10px;
+}
+
+.header_info {
+    padding: 20px;
+}
+
+.searchbox {
+    flex-grow: 1;
+    height: 40px;
+    justify-content: center;
+}
+
+.categorieslist {
+    border: none;
+    border-radius: 0 20px 20px 0;
+    padding: 8px 5px;
+}
+
+.searchinput {
+    border: none;
+    border-right: 1px solid silver;
+    padding: 8px 5px;
+}
+
+.searchbtn {
+    background-color: #f4a137;
+    border-radius: 20px 0 0 20px;
+    padding: 10px 20px;
+    color: #fff !important;
+}
+
+.contactus,
+.cart {
+    margin: 0 12px;
+}
+
+.contactusicon,
+.cart_icon {
+    padding: 5px 0 0 10px;
+    font-size: 1.5em;
+}
+
+.contactusinfo,
+.cartinfo {
+    font-size: 0.8em;
+}
+
+.carticon {
+    background-color: #f4a137;
+    padding: 5px;
 }
