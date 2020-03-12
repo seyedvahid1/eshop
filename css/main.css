@@ -194,3 +194,103 @@
     .topproductinfo h4 {
         margin: 0;
     }
+    
+    .topsell {
+        background-color: #fff;
+    }
+    
+    .ts_detail {
+        flex-grow: 2;
+        width: 40%;
+        border: 1px solid #dfdfde;
+        margin: 10px;
+    }
+    
+    .ts_list {
+        flex-grow: 3;
+        width: 60%;
+    }
+    
+    .ts_productlist {
+        flex-wrap: wrap;
+    }
+    
+    .ts_productitem {
+        width: 33%;
+        flex-grow: 1;
+    }
+    
+    .ts_pi_detail {
+        border: 1px solid #dfdfde;
+        margin: 10px;
+    }
+    
+    .productimage {
+        width: 100%;
+    }
+    
+    .productitle {
+        color: #000;
+        display: block;
+        margin-right: 15px;
+    }
+    
+    .productitle:hover {
+        color: #f4a137;
+    }
+    
+    .priceitem {
+        color: #d60000;
+        margin-right: 15px;
+    }
+    
+    .productaction {
+        margin: 15px;
+    }
+    
+    .ts_overlyimg {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .overlyimage {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        opacity: 0;
+        width: 100%;
+        transition: all 0.1s linear;
+    }
+    
+    .ts_pi_detail:hover .overlyimage {
+        opacity: 1;
+        top: 0;
+    }
+    
+    .ts_pi_detail .btn_product {
+        position: absolute;
+        top: -100%;
+        right: 15%;
+        width: 70%;
+        opacity: 0;
+        transition: all 0.1s linear;
+    }
+    
+    .ts_pi_detail:hover .btn_product {
+        opacity: 1;
+        top: 50%;
+    }
+    
+    .thumbimge {
+        border: 1px solid #ddd;
+        margin-right: 15px;
+        transition: all 0.1s linear;
+    }
+    
+    .thumblink {
+        display: block;
+    }
+    
+    .thumblink:hover .thumbimge {
+        border-color: #f4a137;
+    }
