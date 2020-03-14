@@ -303,3 +303,45 @@
         width: 100%;
         display: block;
     }
+    
+    .np_listitem {
+        width: 25%;
+    }
+    
+    .section_title {
+        margin-right: 10px;
+        display: inline-block;
+        border-bottom: 1px solid #f4a137;
+    }
+    
+    .collectionsitem {
+        width: 16.5%;
+        flex-grow: 1;
+    }
+    
+    .collectionsdetail {
+        background-color: #eee;
+        border: 1px solid transparent;
+        margin: 10px;
+    }
+    
+    .collectionsdetail:hover {
+        border-color: #f4a137;
+        background-color: #fff;
+    }
+    
+    .collectionslink {
+        display: block;
+        border-bottom: 3px solid #f4a137;
+        position: relative;
+    }
+    
+    .collectionsinfo {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        color: #acacac;
+    }
