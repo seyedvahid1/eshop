@@ -294,3 +294,12 @@
     .thumblink:hover .thumbimge {
         border-color: #f4a137;
     }
+    
+    .banner {
+        padding: 15px;
+    }
+    
+    .bannerimage {
+        width: 100%;
+        display: block;
+    }
