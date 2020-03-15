@@ -345,3 +345,100 @@
         text-align: center;
         color: #acacac;
     }
+    
+    .hs_list {
+        flex-wrap: wrap;
+    }
+    
+    .hs_listitem {
+        width: 33%;
+        flex-grow: 1;
+    }
+    
+    .hs_itemdetail {
+        margin: 10px;
+        border: 1px solid #ddd;
+    }
+    
+    .hs_itemdetail:hover {
+        box-shadow: 0 0 4px 0 silver;
+    }
+    
+    .hs_itemdetail:hover .hs_image {
+        opacity: 0.8;
+    }
+    
+    .hs_itemdetail:hover h3>a {
+        color: #f4a137;
+    }
+    
+    .hs_image {
+        width: 150px;
+        height: 158px;
+    }
+    
+    .hs_image img {
+        width: 100%;
+    }
+    
+    .hs_iteminfo {
+        flex-grow: 1;
+    }
+    
+    .hotcategory {
+        background-color: #f2f2f1;
+    }
+    
+    .hc_item {
+        width: 25%;
+    }
+    
+    .hc_details {
+        margin: 10px;
+    }
+    
+    .hc_image img {
+        width: 100%;
+    }
+    
+    .hc_image {
+        position: relative;
+    }
+    
+    .hc_itemlink {
+        position: absolute;
+        left: 20px;
+        bottom: 40px;
+        padding: 1px 15px;
+        border: 1px solid #ddd;
+        font-size: 0.9em;
+    }
+    
+    .hc_itemlink:hover {
+        background-color: #333;
+    }
+    
+    .hc_lisitem {
+        list-style: square;
+        margin-right: 25px;
+        color: #555;
+        font-size: 0.9em;
+    }
+    
+    .hc_title {
+        margin: 5px;
+    }
+    
+    .hc_lisitem,
+    .hc_titlelink {
+        color: #444;
+    }
+    
+    .hc_listlink {
+        color: inherit;
+    }
+    
+    .hc_titlelink:hover,
+    .hc_lisitem:hover {
+        color: #f4a137;
+    }
